@@ -157,7 +157,7 @@ def RowEchelonSolution(matrix):
 def ReducedRowEchelonSolution(matrix):
     return reducedEchelonFormFinal(downwardElimination(matrix))
 
-def main():
+def main2():
     print("\n Now let us test with user entered data: ")
     mat = start()
     print("""   Please enter:
@@ -181,5 +181,3 @@ def main():
         print("\n\n\n Thanks for visiting mate!   ")
  
     
-
-main()

@@ -159,7 +159,7 @@ def ReducedRowEchelonSolution(matrix):
 
 def main2():
     print("\n Now let us test with user entered data: ")
-    mat = start()
+    mat = [[1, 0, 0, 0, 1, 80], [1, 1, 0, -1, 0, -100], [0, -1, 1, 0, 0, 90], [0, 0, -1, 1, 1, 90]]
     print("""   Please enter:
                     1. If you want the reduced matrix from using the Gaussian approach
 
@@ -180,4 +180,4 @@ def main2():
             matrixPrint(ReducedRowEchelonSolution(mat))
         print("\n\n\n Thanks for visiting mate!   ")
  
-    
+main2()
